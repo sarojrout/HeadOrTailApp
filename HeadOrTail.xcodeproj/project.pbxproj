@@ -13,6 +13,27 @@
 		D3572F261AD102FC00A3D826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3572F251AD102FC00A3D826 /* Images.xcassets */; };
 		D3572F291AD102FC00A3D826 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3572F271AD102FC00A3D826 /* LaunchScreen.xib */; };
 		D3572F351AD102FC00A3D826 /* HeadOrTailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3572F341AD102FC00A3D826 /* HeadOrTailTests.swift */; };
+		D3572F471AD1032300A3D826 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3572F461AD1032300A3D826 /* InterfaceController.swift */; };
+		D3572F491AD1032300A3D826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3572F481AD1032300A3D826 /* Images.xcassets */; };
+		D3572F4D1AD1032300A3D826 /* HeadOrTail WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D3572F4C1AD1032300A3D826 /* HeadOrTail WatchKit App.app */; };
+		D3572F551AD1032300A3D826 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3572F531AD1032300A3D826 /* Interface.storyboard */; };
+		D3572F571AD1032300A3D826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3572F561AD1032300A3D826 /* Images.xcassets */; };
+		D3572F5A1AD1032300A3D826 /* HeadOrTail WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3572F421AD1032300A3D826 /* HeadOrTail WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3572F681AD1042000A3D826 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F631AD1042000A3D826 /* 2.png */; };
+		D3572F691AD1042000A3D826 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F631AD1042000A3D826 /* 2.png */; };
+		D3572F6A1AD1042000A3D826 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F631AD1042000A3D826 /* 2.png */; };
+		D3572F6B1AD1042000A3D826 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F641AD1042000A3D826 /* 3.png */; };
+		D3572F6C1AD1042000A3D826 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F641AD1042000A3D826 /* 3.png */; };
+		D3572F6D1AD1042000A3D826 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F641AD1042000A3D826 /* 3.png */; };
+		D3572F6E1AD1042000A3D826 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F651AD1042000A3D826 /* 4.png */; };
+		D3572F6F1AD1042000A3D826 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F651AD1042000A3D826 /* 4.png */; };
+		D3572F701AD1042000A3D826 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F651AD1042000A3D826 /* 4.png */; };
+		D3572F711AD1042000A3D826 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F661AD1042000A3D826 /* head.png */; };
+		D3572F721AD1042000A3D826 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F661AD1042000A3D826 /* head.png */; };
+		D3572F731AD1042000A3D826 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F661AD1042000A3D826 /* head.png */; };
+		D3572F741AD1042000A3D826 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F671AD1042000A3D826 /* tail.png */; };
+		D3572F751AD1042000A3D826 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F671AD1042000A3D826 /* tail.png */; };
+		D3572F761AD1042000A3D826 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = D3572F671AD1042000A3D826 /* tail.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +44,35 @@
 			remoteGlobalIDString = D3572F181AD102FC00A3D826;
 			remoteInfo = HeadOrTail;
 		};
+		D3572F4E1AD1032300A3D826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3572F111AD102FC00A3D826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3572F4B1AD1032300A3D826;
+			remoteInfo = "HeadOrTail WatchKit App";
+		};
+		D3572F581AD1032300A3D826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3572F111AD102FC00A3D826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3572F411AD1032300A3D826;
+			remoteInfo = "HeadOrTail WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3572F611AD1032300A3D826 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3572F5A1AD1032300A3D826 /* HeadOrTail WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D3572F191AD102FC00A3D826 /* HeadOrTail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadOrTail.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +85,19 @@
 		D3572F2E1AD102FC00A3D826 /* HeadOrTailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadOrTailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3572F331AD102FC00A3D826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3572F341AD102FC00A3D826 /* HeadOrTailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadOrTailTests.swift; sourceTree = "<group>"; };
+		D3572F421AD1032300A3D826 /* HeadOrTail WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeadOrTail WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3572F451AD1032300A3D826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3572F461AD1032300A3D826 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D3572F481AD1032300A3D826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3572F4C1AD1032300A3D826 /* HeadOrTail WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadOrTail WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3572F521AD1032300A3D826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3572F541AD1032300A3D826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D3572F561AD1032300A3D826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3572F631AD1042000A3D826 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D3572F641AD1042000A3D826 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D3572F651AD1042000A3D826 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D3572F661AD1042000A3D826 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		D3572F671AD1042000A3D826 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +115,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3572F3F1AD1032300A3D826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D3572F101AD102FC00A3D826 = {
 			isa = PBXGroup;
 			children = (
+				D3572F621AD1042000A3D826 /* coins */,
 				D3572F1B1AD102FC00A3D826 /* HeadOrTail */,
 				D3572F311AD102FC00A3D826 /* HeadOrTailTests */,
+				D3572F431AD1032300A3D826 /* HeadOrTail WatchKit Extension */,
+				D3572F501AD1032300A3D826 /* HeadOrTail WatchKit App */,
 				D3572F1A1AD102FC00A3D826 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +142,8 @@
 			children = (
 				D3572F191AD102FC00A3D826 /* HeadOrTail.app */,
 				D3572F2E1AD102FC00A3D826 /* HeadOrTailTests.xctest */,
+				D3572F421AD1032300A3D826 /* HeadOrTail WatchKit Extension.appex */,
+				D3572F4C1AD1032300A3D826 /* HeadOrTail WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +186,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D3572F431AD1032300A3D826 /* HeadOrTail WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3572F461AD1032300A3D826 /* InterfaceController.swift */,
+				D3572F481AD1032300A3D826 /* Images.xcassets */,
+				D3572F441AD1032300A3D826 /* Supporting Files */,
+			);
+			path = "HeadOrTail WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D3572F441AD1032300A3D826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3572F451AD1032300A3D826 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3572F501AD1032300A3D826 /* HeadOrTail WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D3572F531AD1032300A3D826 /* Interface.storyboard */,
+				D3572F561AD1032300A3D826 /* Images.xcassets */,
+				D3572F511AD1032300A3D826 /* Supporting Files */,
+			);
+			path = "HeadOrTail WatchKit App";
+			sourceTree = "<group>";
+		};
+		D3572F511AD1032300A3D826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3572F521AD1032300A3D826 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3572F621AD1042000A3D826 /* coins */ = {
+			isa = PBXGroup;
+			children = (
+				D3572F631AD1042000A3D826 /* 2.png */,
+				D3572F641AD1042000A3D826 /* 3.png */,
+				D3572F651AD1042000A3D826 /* 4.png */,
+				D3572F661AD1042000A3D826 /* head.png */,
+				D3572F671AD1042000A3D826 /* tail.png */,
+			);
+			path = coins;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +244,12 @@
 				D3572F151AD102FC00A3D826 /* Sources */,
 				D3572F161AD102FC00A3D826 /* Frameworks */,
 				D3572F171AD102FC00A3D826 /* Resources */,
+				D3572F611AD1032300A3D826 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D3572F591AD1032300A3D826 /* PBXTargetDependency */,
 			);
 			name = HeadOrTail;
 			productName = HeadOrTail;
@@ -150,6 +274,39 @@
 			productReference = D3572F2E1AD102FC00A3D826 /* HeadOrTailTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D3572F411AD1032300A3D826 /* HeadOrTail WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3572F5E1AD1032300A3D826 /* Build configuration list for PBXNativeTarget "HeadOrTail WatchKit Extension" */;
+			buildPhases = (
+				D3572F3E1AD1032300A3D826 /* Sources */,
+				D3572F3F1AD1032300A3D826 /* Frameworks */,
+				D3572F401AD1032300A3D826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3572F4F1AD1032300A3D826 /* PBXTargetDependency */,
+			);
+			name = "HeadOrTail WatchKit Extension";
+			productName = "HeadOrTail WatchKit Extension";
+			productReference = D3572F421AD1032300A3D826 /* HeadOrTail WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D3572F4B1AD1032300A3D826 /* HeadOrTail WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3572F5B1AD1032300A3D826 /* Build configuration list for PBXNativeTarget "HeadOrTail WatchKit App" */;
+			buildPhases = (
+				D3572F4A1AD1032300A3D826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeadOrTail WatchKit App";
+			productName = "HeadOrTail WatchKit App";
+			productReference = D3572F4C1AD1032300A3D826 /* HeadOrTail WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +322,12 @@
 					D3572F2D1AD102FC00A3D826 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = D3572F181AD102FC00A3D826;
+					};
+					D3572F411AD1032300A3D826 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D3572F4B1AD1032300A3D826 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +346,8 @@
 			targets = (
 				D3572F181AD102FC00A3D826 /* HeadOrTail */,
 				D3572F2D1AD102FC00A3D826 /* HeadOrTailTests */,
+				D3572F411AD1032300A3D826 /* HeadOrTail WatchKit Extension */,
+				D3572F4B1AD1032300A3D826 /* HeadOrTail WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -192,8 +357,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3572F6E1AD1042000A3D826 /* 4.png in Resources */,
+				D3572F6B1AD1042000A3D826 /* 3.png in Resources */,
 				D3572F241AD102FC00A3D826 /* Main.storyboard in Resources */,
 				D3572F291AD102FC00A3D826 /* LaunchScreen.xib in Resources */,
+				D3572F711AD1042000A3D826 /* head.png in Resources */,
+				D3572F741AD1042000A3D826 /* tail.png in Resources */,
+				D3572F681AD1042000A3D826 /* 2.png in Resources */,
 				D3572F261AD102FC00A3D826 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +372,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3572F401AD1032300A3D826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3572F751AD1042000A3D826 /* tail.png in Resources */,
+				D3572F691AD1042000A3D826 /* 2.png in Resources */,
+				D3572F491AD1032300A3D826 /* Images.xcassets in Resources */,
+				D3572F4D1AD1032300A3D826 /* HeadOrTail WatchKit App.app in Resources */,
+				D3572F6F1AD1042000A3D826 /* 4.png in Resources */,
+				D3572F6C1AD1042000A3D826 /* 3.png in Resources */,
+				D3572F721AD1042000A3D826 /* head.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3572F4A1AD1032300A3D826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3572F761AD1042000A3D826 /* tail.png in Resources */,
+				D3572F6A1AD1042000A3D826 /* 2.png in Resources */,
+				D3572F551AD1032300A3D826 /* Interface.storyboard in Resources */,
+				D3572F571AD1032300A3D826 /* Images.xcassets in Resources */,
+				D3572F701AD1042000A3D826 /* 4.png in Resources */,
+				D3572F6D1AD1042000A3D826 /* 3.png in Resources */,
+				D3572F731AD1042000A3D826 /* head.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +423,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3572F3E1AD1032300A3D826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3572F471AD1032300A3D826 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +438,16 @@
 			isa = PBXTargetDependency;
 			target = D3572F181AD102FC00A3D826 /* HeadOrTail */;
 			targetProxy = D3572F2F1AD102FC00A3D826 /* PBXContainerItemProxy */;
+		};
+		D3572F4F1AD1032300A3D826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3572F4B1AD1032300A3D826 /* HeadOrTail WatchKit App */;
+			targetProxy = D3572F4E1AD1032300A3D826 /* PBXContainerItemProxy */;
+		};
+		D3572F591AD1032300A3D826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3572F411AD1032300A3D826 /* HeadOrTail WatchKit Extension */;
+			targetProxy = D3572F581AD1032300A3D826 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +466,14 @@
 				D3572F281AD102FC00A3D826 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D3572F531AD1032300A3D826 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3572F541AD1032300A3D826 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HeadOrTail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HeadOrTail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +612,60 @@
 			};
 			name = Release;
 		};
+		D3572F5C1AD1032300A3D826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HeadOrTail_WatchKit_Extension;
+				INFOPLIST_FILE = "HeadOrTail WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D3572F5D1AD1032300A3D826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HeadOrTail_WatchKit_Extension;
+				INFOPLIST_FILE = "HeadOrTail WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D3572F5F1AD1032300A3D826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeadOrTail WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3572F601AD1032300A3D826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HeadOrTail WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +685,7 @@
 				D3572F3A1AD102FC00A3D826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3572F3B1AD102FC00A3D826 /* Build configuration list for PBXNativeTarget "HeadOrTailTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +694,25 @@
 				D3572F3D1AD102FC00A3D826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3572F5B1AD1032300A3D826 /* Build configuration list for PBXNativeTarget "HeadOrTail WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3572F5C1AD1032300A3D826 /* Debug */,
+				D3572F5D1AD1032300A3D826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3572F5E1AD1032300A3D826 /* Build configuration list for PBXNativeTarget "HeadOrTail WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3572F5F1AD1032300A3D826 /* Debug */,
+				D3572F601AD1032300A3D826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

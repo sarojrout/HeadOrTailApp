@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3572F181AD102FC00A3D826"
-               BuildableName = "HeadOrTail.app"
-               BlueprintName = "HeadOrTail"
+               BlueprintIdentifier = "D3572F4B1AD1032300A3D826"
+               BuildableName = "HeadOrTail WatchKit App.app"
+               BlueprintName = "HeadOrTail WatchKit App"
                ReferencedContainer = "container:HeadOrTail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3572F2D1AD102FC00A3D826"
-               BuildableName = "HeadOrTailTests.xctest"
-               BlueprintName = "HeadOrTailTests"
+               BlueprintIdentifier = "D3572F411AD1032300A3D826"
+               BuildableName = "HeadOrTail WatchKit Extension.appex"
+               BlueprintName = "HeadOrTail WatchKit Extension"
+               ReferencedContainer = "container:HeadOrTail.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D3572F181AD102FC00A3D826"
+               BuildableName = "HeadOrTail.app"
+               BlueprintName = "HeadOrTail"
                ReferencedContainer = "container:HeadOrTail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3572F2D1AD102FC00A3D826"
-               BuildableName = "HeadOrTailTests.xctest"
-               BlueprintName = "HeadOrTailTests"
-               ReferencedContainer = "container:HeadOrTail.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3572F181AD102FC00A3D826"
-            BuildableName = "HeadOrTail.app"
-            BlueprintName = "HeadOrTail"
+            BlueprintIdentifier = "D3572F4B1AD1032300A3D826"
+            BuildableName = "HeadOrTail WatchKit App.app"
+            BlueprintName = "HeadOrTail WatchKit App"
             ReferencedContainer = "container:HeadOrTail.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/HeadOrTail">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3572F181AD102FC00A3D826"
-            BuildableName = "HeadOrTail.app"
-            BlueprintName = "HeadOrTail"
+            BlueprintIdentifier = "D3572F4B1AD1032300A3D826"
+            BuildableName = "HeadOrTail WatchKit App.app"
+            BlueprintName = "HeadOrTail WatchKit App"
             ReferencedContainer = "container:HeadOrTail.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3572F4B1AD1032300A3D826"
+            BuildableName = "HeadOrTail WatchKit App.app"
+            BlueprintName = "HeadOrTail WatchKit App"
+            ReferencedContainer = "container:HeadOrTail.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/HeadOrTail">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3572F181AD102FC00A3D826"
-            BuildableName = "HeadOrTail.app"
-            BlueprintName = "HeadOrTail"
+            BlueprintIdentifier = "D3572F4B1AD1032300A3D826"
+            BuildableName = "HeadOrTail WatchKit App.app"
+            BlueprintName = "HeadOrTail WatchKit App"
             ReferencedContainer = "container:HeadOrTail.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3572F4B1AD1032300A3D826"
+            BuildableName = "HeadOrTail WatchKit App.app"
+            BlueprintName = "HeadOrTail WatchKit App"
+            ReferencedContainer = "container:HeadOrTail.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
